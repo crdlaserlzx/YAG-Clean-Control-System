@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CORE -I..\USER -I..\STM32F10x_FWLib\inc -I..\SYSTEM\sys -I..\SYSTEM\delay -I..\HARDWARE\LCD -I..\HARDWARE\EXTI -I..\HARDWARE -I..\HARDWARE\SCAN 
+-I "D:\Program install\Keil\ARM\RV31\INC" 
+-I "D:\Program install\Keil\ARM\CMSIS\Include" 
+-I "D:\Program install\Keil\ARM\Inc\ST\STM32F10x" 
+-DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\stm32f10x_spi.o" --omf_browse "..\OBJ\stm32f10x_spi.crf" --depend "..\OBJ\stm32f10x_spi.d" "..\STM32F10x_FWLib\src\stm32f10x_spi.c"

@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE -I..\CORE -I..\OBJ -I..\STM32F10x_FWLib -I..\SYSTEM -I..\USER -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\SYSTEM\delay -I..\STM32F10x_FWLib\src -I..\STM32F10x_FWLib\inc -I..\HARDWARE\EXTI -I..\HARDWARE\LCD -I..\HARDWARE\SCAN -I..\HARDWARE\AD5722R -I..\HARDWARE\RA8875 -I..\HARDWARE\FlashStorage -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\control_gpio 
+-I "D:\Program install\Keil\ARM\RV31\INC" 
+-I "D:\Program install\Keil\ARM\CMSIS\Include" 
+-I "D:\Program install\Keil\ARM\Inc\ST\STM32F10x" 
+-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "scan.o" --omf_browse "scan.crf" --depend "scan.d" "..\HARDWARE\SCAN\scan.c"

@@ -1,0 +1,19 @@
+flashstorage.o: ..\HARDWARE\FlashStorage\FlashStorage.c
+flashstorage.o: ..\SYSTEM\delay\delay.h
+flashstorage.o: ..\SYSTEM\sys\sys.h
+flashstorage.o: ..\USER\stm32f10x.h
+flashstorage.o: ..\CORE\core_cm3.h
+flashstorage.o: D:\Program install\Keil\ARM\ARMCC\bin\..\include\stdint.h
+flashstorage.o: ..\USER\system_stm32f10x.h
+flashstorage.o: ..\USER\stm32f10x_conf.h
+flashstorage.o: ..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h
+flashstorage.o: ..\USER\stm32f10x.h
+flashstorage.o: ..\STM32F10x_FWLib\inc\stm32f10x_flash.h
+flashstorage.o: ..\STM32F10x_FWLib\inc\stm32f10x_gpio.h
+flashstorage.o: ..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h
+flashstorage.o: ..\STM32F10x_FWLib\inc\stm32f10x_rcc.h
+flashstorage.o: ..\STM32F10x_FWLib\inc\stm32f10x_tim.h
+flashstorage.o: ..\STM32F10x_FWLib\inc\stm32f10x_usart.h
+flashstorage.o: ..\STM32F10x_FWLib\inc\misc.h
+flashstorage.o: ..\STM32F10x_FWLib\inc\stm32f10x_exti.h
+flashstorage.o: ..\HARDWARE\FlashStorage\FlashStorage.h

@@ -1,0 +1,19 @@
+ad5722r.o: ..\HARDWARE\AD5722R\AD5722R.c
+ad5722r.o: ..\SYSTEM\delay\delay.h
+ad5722r.o: ..\SYSTEM\sys\sys.h
+ad5722r.o: ..\USER\stm32f10x.h
+ad5722r.o: ..\CORE\core_cm3.h
+ad5722r.o: D:\Program install\Keil\ARM\ARMCC\bin\..\include\stdint.h
+ad5722r.o: ..\USER\system_stm32f10x.h
+ad5722r.o: ..\USER\stm32f10x_conf.h
+ad5722r.o: ..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h
+ad5722r.o: ..\USER\stm32f10x.h
+ad5722r.o: ..\STM32F10x_FWLib\inc\stm32f10x_flash.h
+ad5722r.o: ..\STM32F10x_FWLib\inc\stm32f10x_gpio.h
+ad5722r.o: ..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h
+ad5722r.o: ..\STM32F10x_FWLib\inc\stm32f10x_rcc.h
+ad5722r.o: ..\STM32F10x_FWLib\inc\stm32f10x_tim.h
+ad5722r.o: ..\STM32F10x_FWLib\inc\stm32f10x_usart.h
+ad5722r.o: ..\STM32F10x_FWLib\inc\misc.h
+ad5722r.o: ..\STM32F10x_FWLib\inc\stm32f10x_exti.h
+ad5722r.o: ..\HARDWARE\AD5722R\AD5722R.h
